@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,700;1,100;1,200&display=swap');
+
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #f5caca33;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 200;
+}
+
+a {
+  color:rgba(240, 122, 122, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  color:#d45a5a;
+  text-shadow: 1px 1px 1px rgba(240, 122, 122, 0.5);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  letter-spacing: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border: 1px solid rgba(189, 167, 167, 0.4);
+  margin: 18px 40px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgba(242, 140, 140, 0.3);
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.button {
+  background-color: white;
+  border: 1px solid rgba(240, 122, 122, 0.5);
+  padding: 7px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 2px  rgba(189, 167, 167, 0.2);
+  text-align: center;
+}
+
+.button:hover {
+  border: 1px solid #d45a5a;
+  box-shadow: 1px 1px 1px  rgba(189, 167, 167, 0.5);
+}
+
+.center {
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+}
+
+#profile {
+  width: 200px;
+  box-shadow: 1px 1px 3px rgba(189, 167, 167, 0.2);
+  border-radius: 100px;
+}
+
+#grumpy-cat {
+  width: 800px;
+}
+
+/* Responsive behaviour */
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+
+  #profile {
+    width: 100px;
+  }
+}
